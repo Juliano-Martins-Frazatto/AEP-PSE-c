@@ -14,9 +14,9 @@ A ideia é ajudar a equipe gestora (**IntegraPSE**) a sair dos controles manuais
 
 ## 👥 Integrantes
 
-* **Arthur**
-* **Juliano**
-* **Luiz**
+* **Arthur Guilherme**
+* **Juliano Frazatto**
+* **Luiz Pedreira**
 
 ---
 
