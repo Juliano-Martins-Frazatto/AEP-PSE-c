@@ -6,35 +6,34 @@
 
 ## 📌 Sobre o Projeto
 
-O **PSE em Ação** é um projeto criado para a nossa Atividade Estruturada Prática (AEP). O objetivo é gerenciar as ações de saúde e educação promovidas pelo **Programa Saúde na Escola (PSE)** do município.
+O **PSE em Ação** é um projeto criado para a nossa Atividade Estruturada Prática (AEP) - 2º Semestre. O objetivo é gerenciar as ações de saúde e educação promovidas pelo **Programa Saúde na Escola (PSE)** do município.
 
-A ideia é ajudar a equipe gestora (**IntegraPSE**) a sair dos controles manuais e papéis dispersos, unificando tudo em um sistema via terminal. Com o software, fica mais fácil acompanhar as atividades nas escolas públicas e gerar métricas (como total de alunos atendidos), focando em ser prático no dia a dia e respeitando totalmente a privacidade dos estudantes.
+A ideia é ajudar a equipe gestora (**IntegraPSE**) a sair dos controles manuais e papéis dispersos, unificando tudo em um sistema via terminal. Com o software, fica mais fácil acompanhar as atividades nas escolas públicas e gerar métricas de participação, focando em ser prático no dia a dia, utilizando dados fictícios coletivos e respeitando totalmente a privacidade dos estudantes.
 
 ---
 
 ## 👥 Integrantes
 
-* **Arthur Guilherme**
-* **Juliano Frazatto**
-* **Luiz Pedreira**
+* **Juliano Martins Frazatto Filho**
+* **Arthur Pedreira Perussulo**
 
 ---
 
-## 🚀 Funcionalidades (Requisitos)
+## 🚀 Funcionalidades (Casos de Uso)
 
-- [x] **UC01 / RF01 — Cadastrar Ação:** Salva as atividades com um código único, tema do PSE, escola, data, público-alvo e estimativa de participantes.
+- [x] **UC01 / RF01 — Cadastrar Ação:** Salva as atividades com um código único, tema do PSE (entre 14 opções), escola, data, público-alvo, responsável e estimativa de participantes.
 - [x] **UC02 / RF02 — Listar Ações:** Mostra na tela todas as atividades cadastradas.
-- [x] **UC03 / RF03 — Pesquisar e Filtrar:** Busca rápida de ações por código, nome da escola ou tema.
-- [x] **UC04 / RF04 — Atualizar Status:** Muda a situação de uma ação (Planejada, Em Andamento, Concluída, Cancelada).
-- [x] **UC05 / RF05 — Remover Ação:** Apaga registros do sistema (com aviso de confirmação).
-- [x] **UC06 / RF06 — Resumo e Métricas:** Mostra os números finais de escolas e alunos atendidos, além de um balanço dos status das ações.
+- [x] **UC03 / RF03 — Pesquisar Ação:** Busca rápida de ações por código, ou seleção a partir de nomes de escolas e temas já cadastrados.
+- [x] **UC04 / RF04 — Atualizar Situação:** Muda o status inicial de uma ação (Planejada, Realizada ou Cancelada).
+- [x] **UC05 / RF05 — Registrar Participantes:** Adiciona a quantidade efetiva de participantes quando uma ação é marcada como "Realizada".
+- [x] **UC06 / RF06 — Resumo e Métricas:** Gera um balanço consolidado de ações por situação, total de participantes e o percentual de engajamento em relação ao previsto inicial.
 
 ---
 
 ## 🛠️ Tecnologias e Conceitos Aplicados
 
-* **Linguagem C:** Programação estruturada, alocação de memória, modularização (funções) e uso de `structs` e vetores.
-* **Engenharia de Software:** Levantamento de Requisitos (RF/RNF), Casos de Uso, Fluxogramas e organização ágil (Sprints/Kanban).
+* **Linguagem C:** Programação estruturada, laços de repetição, validações de entrada, modularização (funções) e uso de `structs` e vetores armazenados em memória.
+* **Engenharia de Software:** Levantamento de Requisitos (RF/RNF), Diagrama e Descrição de Casos de Uso, Fluxogramas, Casos de Teste e organização ágil.
 * **Git & GitHub:** Versionamento de código e desenvolvimento em equipe.
 
 ---
@@ -43,7 +42,15 @@ A ideia é ajudar a equipe gestora (**IntegraPSE**) a sair dos controles manuais
 
 ```text
 ├── documentacao/
-│   └── AEP_Etapa1_Documento_Escrito.pdf   # Documento técnico e teórico da 1ª Entrega
-├── src/                                   # Código-fonte em C (Etapa 2)
-│   └── main.c
-└── README.md                              # Apresentação e documentação do repositório
+│   ├── AEP_Etapa1_Planejamento.pdf          # Documento de levantamento, requisitos e fluxogramas da 1ª Entrega
+│   └── AEP_Etapa2_Documentacao_Final.pdf    # Documento técnico final com Casos de Uso, Testes e Manual do Usuário
+├── src/                                     
+│   └── main.c                               # Código-fonte funcional em C (Etapa 2)
+└── README.md                                # Apresentação e documentação do repositório
+```
+
+---
+
+## 🎥 Apresentação do Projeto
+
+* **Vídeo Demonstrativo:** [] - Duração de até 7 minutos detalhando a lógica do sistema e o projeto rodando no terminal.
